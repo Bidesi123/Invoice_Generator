@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\bin\Debug\netcoreapp3.1\CabInvoiceCalculation.exe
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\bin\Debug\netcoreapp3.1\CabInvoiceCalculation.deps.json
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\bin\Debug\netcoreapp3.1\CabInvoiceCalculation.runtimeconfig.json
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\bin\Debug\netcoreapp3.1\CabInvoiceCalculation.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\bin\Debug\netcoreapp3.1\CabInvoiceCalculation.dll
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\bin\Debug\netcoreapp3.1\CabInvoiceCalculation.pdb
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\obj\Debug\netcoreapp3.1\CabInvoiceCalculation.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\obj\Debug\netcoreapp3.1\CabInvoiceCalculation.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\obj\Debug\netcoreapp3.1\CabInvoiceCalculation.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\obj\Debug\netcoreapp3.1\CabInvoiceCalculation.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\obj\Debug\netcoreapp3.1\CabInvoiceCalculation.dll
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\obj\Debug\netcoreapp3.1\CabInvoiceCalculation.pdb
+C:\Users\ASUS\source\repos\CabInvoiceTest\CabInvoiceCalculation\obj\Debug\netcoreapp3.1\CabInvoiceCalculation.genruntimeconfig.cache
