@@ -6,10 +6,10 @@ namespace CabInvoiceCalculation
 {
    public class Rides
     {
-        private double distance;
-        private double time;
+        public double distance;
+        public double time;
 
-        public Rides(double distnce,double time)
+        public Rides(double distance,double time)
         {
             this.distance = distance;
             this.time = time;
