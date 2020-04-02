@@ -46,5 +46,65 @@ namespace Quantity_Measurement_Test
             var actual = ft1.ConvertedFeetValue(ft2);
             Assert.IsTrue(actual);
         }
+        [Test]
+        public void GivenOdd_FeetValues_WhileCheking_ShouldReturnFalse()
+        {
+            Feet ft1 = new Feet(11);
+            Feet ft2 = new Feet(110);
+            var actual = ft1.ConvertedFeetValue(ft2);
+            Assert.IsFalse(actual);
+        }
+
+        [Test]
+        public void Given0Inch_And0Inch_ShouldReturnEqual()
+        {
+            Inches inch1 = new Inches(0);
+            Inches inch2 = new Inches(0);
+            var actual = inch1.ConvertedInchesValue(inch2);
+            Assert.IsTrue(actual);
+        }
+
+        [Test]
+        public void Given_nullInch_ShouldReturnFalse()
+        {
+            Inches inch = new Inches(11);
+            var actual = inch.Equals(null);
+            Assert.IsFalse(actual);
+        }
+
+        [Test]
+        public void RefCheck_ForInches_ShouldReturnFalse()
+        {
+            Inches inches = new Inches(11);
+            var actual = this.Equals(inches);
+            Assert.IsFalse(actual);
+        }
+
+        [Test]
+        public void TypeCheck_ForInches_ShouldReturnTrue()
+        {
+            Inches inch1 = new Inches(11);
+            Inches inch2 = new Inches(13);
+            var actual = inch1.Equals(inch2);
+            Assert.IsTrue(actual);
+        }
+
+        [Test]
+        public void GivenSimilar_InchValues_WhileCheking_ShouldReturnTrue()
+        {
+            Inches inch1 = new Inches(11);
+            Inches inch2 = new Inches(11);
+            var actual = inch1.ConvertedInchesValue(inch2);
+            Assert.IsTrue(actual);
+        }
+
+        [Test]
+        public void GivenOdd_InchValues_WhileCheking_ShouldReturnFalse()
+        {
+            Inches inch1 = new Inches(11);
+            Inches inch2 = new Inches(110);
+            var actual = inch1.ConvertedInchesValue(inch2);
+            Assert.IsFalse(actual);
+        }
     }
 }
