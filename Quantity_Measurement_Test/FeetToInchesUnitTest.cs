@@ -116,6 +116,23 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedFeetAndinchesValue(feet,inch);
             Assert.IsTrue(actual);
         }
-
+        [Test]
+        public void Given1Feet_And_1Inch_ShouldReturnEqual()
+        {
+            Feet feet = new Feet(1);
+            Inches inch = new Inches(1);
+            FeetToInches test = new FeetToInches(feet, inch);
+            var actual = test.ComparedFeetAndinchesValue(feet, inch);
+            Assert.IsFalse(actual);
+        }
+        [Test]
+        public void Given1Feet_And_12Inch_ShouldReturnEqual()
+        {
+            Inches inch = new Inches(1);
+            Feet feet = new Feet(12*inch.inches);
+            FeetToInches test = new FeetToInches(feet, inch);
+            var actual = test.ComparedFeetAndinchesValue(feet, inch);
+            Assert.IsTrue(actual);
+        }
     }
 }
