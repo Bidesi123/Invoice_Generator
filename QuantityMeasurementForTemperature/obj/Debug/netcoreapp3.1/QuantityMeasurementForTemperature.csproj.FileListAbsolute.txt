@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.exe
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.deps.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.runtimeconfig.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.dll
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.pdb
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\obj\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\obj\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\obj\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\obj\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\obj\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.dll
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\obj\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.pdb
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurementForTemperature\obj\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.genruntimeconfig.cache
