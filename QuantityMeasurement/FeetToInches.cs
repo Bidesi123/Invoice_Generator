@@ -16,8 +16,7 @@ namespace QuantityMeasurement
         }
 
         public bool ComparedFeetAndinchesValue(Feet feet,Inches inch)
-        {
-           /* this.feet = 12 * this.inch;*/
+        {          
             if (this.feet == 0 && (this.feet.Equals(this.inch)))
                 return true;
             if (this.feet == 1 && (this.feet.Equals(this.inch)))
