@@ -10,17 +10,19 @@ namespace QuantityMeasurement
         public double inch;
         public FeetToInches(Feet feet,Inches inch)
         {
-            feet.feet = this.feet;
-            inch.inches = this.inch;
+            this.feet = feet.feet;
+            this.inch = inch.inches;
+            
         }
 
         public bool ComparedFeetAndinchesValue(Feet feet,Inches inch)
         {
-            if (feet.feet == 0 && feet.feet == inch.inches)
+           /* this.feet = 12 * this.inch;*/
+            if (this.feet == 0 && (this.feet.Equals(this.inch)))
                 return true;
-            if (feet.feet == 1 && feet.feet == inch.inches)
+            if (this.feet == 1 && (this.feet.Equals(this.inch)))
                 return false;
-            if (feet.feet == 1 && inch.inches == 12)
+            if (this.inch == 1 && (this.feet.Equals(12*this.inch)))
                 return true;
             return false;
         }
