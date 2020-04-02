@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.exe
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.deps.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.runtimeconfig.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.dll
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.pdb
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\obj\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\obj\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\obj\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\obj\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\obj\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.dll
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\obj\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.pdb
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_ForKelogram\obj\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.genruntimeconfig.cache
