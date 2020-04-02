@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.exe
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.deps.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.runtimeconfig.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.dll
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.pdb
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.dll
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.pdb
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.genruntimeconfig.cache
