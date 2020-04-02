@@ -97,3 +97,6 @@ C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\o
 C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\obj\Debug\netcoreapp3.1\Quantity_Measurement_Test.dll
 C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\obj\Debug\netcoreapp3.1\Quantity_Measurement_Test.pdb
 C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\obj\Debug\netcoreapp3.1\Quantity_Measurement_Test.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.exe
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.dll
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.pdb

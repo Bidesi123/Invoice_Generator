@@ -11,6 +11,7 @@
           "Microsoft.NET.Test.Sdk": "16.4.0",
           "NUnit3TestAdapter": "3.15.1",
           "QuantityMeasurement": "1.0.0",
+          "Quantity_Measurement_ForKelogram": "1.0.0",
           "NUnit": "3.12.0"
         },
         "runtime": {
@@ -870,6 +871,11 @@
         "runtime": {
           "QuantityMeasurement.dll": {}
         }
+      },
+      "Quantity_Measurement_ForKelogram/1.0.0": {
+        "runtime": {
+          "Quantity_Measurement_ForKelogram.dll": {}
+        }
       }
     }
   },
@@ -1321,6 +1327,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
     "QuantityMeasurement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Quantity_Measurement_ForKelogram/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

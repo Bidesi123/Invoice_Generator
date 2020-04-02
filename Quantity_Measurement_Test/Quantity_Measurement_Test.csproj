@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\QuantityMeasurement\QuantityMeasurement.csproj" />
+    <ProjectReference Include="..\Quantity_Measurement_ForKelogram\Quantity_Measurement_ForKelogram.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1235,6 +1235,16 @@
         "runtime": {
           "bin/placeholder/QuantityMeasurement.dll": {}
         }
+      },
+      "Quantity_Measurement_ForKelogram/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Quantity_Measurement_ForKelogram.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Quantity_Measurement_ForKelogram.dll": {}
+        }
       }
     }
   },
@@ -4633,6 +4643,11 @@
       "type": "project",
       "path": "../QuantityMeasurement/QuantityMeasurement.csproj",
       "msbuildProject": "../QuantityMeasurement/QuantityMeasurement.csproj"
+    },
+    "Quantity_Measurement_ForKelogram/1.0.0": {
+      "type": "project",
+      "path": "../Quantity_Measurement_ForKelogram/Quantity_Measurement_ForKelogram.csproj",
+      "msbuildProject": "../Quantity_Measurement_ForKelogram/Quantity_Measurement_ForKelogram.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4640,6 +4655,7 @@
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
       "QuantityMeasurement >= 1.0.0",
+      "Quantity_Measurement_ForKelogram >= 1.0.0",
       "nunit >= 3.12.0"
     ]
   },
@@ -4671,6 +4687,9 @@
           "projectReferences": {
             "C:\\Users\\ASUS\\source\\repos\\Quantity_Measurement_Test\\QuantityMeasurement\\QuantityMeasurement.csproj": {
               "projectPath": "C:\\Users\\ASUS\\source\\repos\\Quantity_Measurement_Test\\QuantityMeasurement\\QuantityMeasurement.csproj"
+            },
+            "C:\\Users\\ASUS\\source\\repos\\Quantity_Measurement_Test\\Quantity_Measurement_ForKelogram\\Quantity_Measurement_ForKelogram.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Quantity_Measurement_Test\\Quantity_Measurement_ForKelogram\\Quantity_Measurement_ForKelogram.csproj"
             }
           }
         }
