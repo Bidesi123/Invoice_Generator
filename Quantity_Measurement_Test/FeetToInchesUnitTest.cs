@@ -106,5 +106,16 @@ namespace Quantity_Measurement_Test
             var actual = inch1.ConvertedInchesValue(inch2);
             Assert.IsFalse(actual);
         }
+
+        [Test]
+        public void Given0Feet_And_0Inch_ShouldReturnEqual()
+        {
+            Feet feet = new Feet(0);
+            Inches inch = new Inches(0);
+            FeetToInches test = new FeetToInches(feet, inch);
+            var actual = test.ComparedFeetAndinchesValue(feet,inch);
+            Assert.IsTrue(actual);
+        }
+
     }
 }
