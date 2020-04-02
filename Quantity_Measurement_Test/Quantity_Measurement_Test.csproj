@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\QuantityMeasurementForTemperature\QuantityMeasurementForTemperature.csproj" />
     <ProjectReference Include="..\QuantityMeasurement\QuantityMeasurement.csproj" />
     <ProjectReference Include="..\Quantity_Measurement_ForKelogram\Quantity_Measurement_ForKelogram.csproj" />
   </ItemGroup>

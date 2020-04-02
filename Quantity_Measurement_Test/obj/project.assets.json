@@ -1236,6 +1236,16 @@
           "bin/placeholder/QuantityMeasurement.dll": {}
         }
       },
+      "QuantityMeasurementForTemperature/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/QuantityMeasurementForTemperature.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuantityMeasurementForTemperature.dll": {}
+        }
+      },
       "Quantity_Measurement_ForKelogram/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -4644,6 +4654,11 @@
       "path": "../QuantityMeasurement/QuantityMeasurement.csproj",
       "msbuildProject": "../QuantityMeasurement/QuantityMeasurement.csproj"
     },
+    "QuantityMeasurementForTemperature/1.0.0": {
+      "type": "project",
+      "path": "../QuantityMeasurementForTemperature/QuantityMeasurementForTemperature.csproj",
+      "msbuildProject": "../QuantityMeasurementForTemperature/QuantityMeasurementForTemperature.csproj"
+    },
     "Quantity_Measurement_ForKelogram/1.0.0": {
       "type": "project",
       "path": "../Quantity_Measurement_ForKelogram/Quantity_Measurement_ForKelogram.csproj",
@@ -4655,6 +4670,7 @@
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
       "QuantityMeasurement >= 1.0.0",
+      "QuantityMeasurementForTemperature >= 1.0.0",
       "Quantity_Measurement_ForKelogram >= 1.0.0",
       "nunit >= 3.12.0"
     ]
@@ -4685,6 +4701,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\ASUS\\source\\repos\\Quantity_Measurement_Test\\QuantityMeasurementForTemperature\\QuantityMeasurementForTemperature.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\Quantity_Measurement_Test\\QuantityMeasurementForTemperature\\QuantityMeasurementForTemperature.csproj"
+            },
             "C:\\Users\\ASUS\\source\\repos\\Quantity_Measurement_Test\\QuantityMeasurement\\QuantityMeasurement.csproj": {
               "projectPath": "C:\\Users\\ASUS\\source\\repos\\Quantity_Measurement_Test\\QuantityMeasurement\\QuantityMeasurement.csproj"
             },

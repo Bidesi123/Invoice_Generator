@@ -100,3 +100,6 @@ C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\o
 C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.exe
 C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.dll
 C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\Quantity_Measurement_ForKelogram.pdb
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.exe
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.dll
+C:\Users\ASUS\source\repos\Quantity_Measurement_Test\Quantity_Measurement_Test\bin\Debug\netcoreapp3.1\QuantityMeasurementForTemperature.pdb
