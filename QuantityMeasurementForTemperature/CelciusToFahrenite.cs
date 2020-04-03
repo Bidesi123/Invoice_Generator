@@ -4,16 +4,30 @@ using System.Text;
 
 namespace QuantityMeasurementForTemperature
 {
+    /// <summary>
+    /// class declaration
+    /// </summary>
    public class CelciusToFahrenite
     {
         public double celcius;
         public double fahrenite;
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="celcius"></param>
+        /// <param name="fahrenite"></param>
         public CelciusToFahrenite(Celcius celcius, Fahrenite fahrenite)
         {
             this.celcius = celcius.celcius;
             this.fahrenite = fahrenite.fahrenite;
 
         }
+        /// <summary>
+        /// method implementation
+        /// </summary>
+        /// <param name="celcius"></param>
+        /// <param name="fahrenite"></param>
+        /// <returns>bool type</returns>
         public bool ComparedCelciusAndFahreniteValue(Celcius celcius, Fahrenite fahrenite)
         {
             if (this.celcius == 1 && (this.celcius.Equals(this.fahrenite)))

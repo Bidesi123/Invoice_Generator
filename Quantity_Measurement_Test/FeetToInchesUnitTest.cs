@@ -5,7 +5,10 @@ using QuantityMeasurement;
 namespace Quantity_Measurement_Test
 {
     public class TesFeetToInchesUnitTestts
-    {   
+    {
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void Given0Feet_And0Feet_ShouldReturnEqual()
         {
@@ -14,7 +17,9 @@ namespace Quantity_Measurement_Test
             var actual = feet1.ConvertedFeetValue(feet2);
             Assert.IsTrue(actual);
         }
-
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void NullFeet_ShouldReturn_False()
         {
@@ -22,7 +27,9 @@ namespace Quantity_Measurement_Test
             var actual = ft1.Equals(null);
             Assert.IsFalse(actual);
         }
-
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void RefCheck_ForFeet_ShouldReturnFalse()
         {
@@ -30,6 +37,9 @@ namespace Quantity_Measurement_Test
             var actual = this.Equals(ft1);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void TypeCheck_ForFeet_ShouldReturnTrue()
         {
@@ -38,6 +48,9 @@ namespace Quantity_Measurement_Test
             var actual = ft1.Equals(ft2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void GivenSimilar_FeetValues_WhileCheking_ShouldReturnTrue()
         {
@@ -46,6 +59,9 @@ namespace Quantity_Measurement_Test
             var actual = ft1.ConvertedFeetValue(ft2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void GivenOdd_FeetValues_WhileCheking_ShouldReturnFalse()
         {
@@ -54,7 +70,9 @@ namespace Quantity_Measurement_Test
             var actual = ft1.ConvertedFeetValue(ft2);
             Assert.IsFalse(actual);
         }
-
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void Given0Inch_And0Inch_ShouldReturnEqual()
         {
@@ -63,7 +81,9 @@ namespace Quantity_Measurement_Test
             var actual = inch1.ConvertedInchesValue(inch2);
             Assert.IsTrue(actual);
         }
-
+        /// <summary>
+        /// test case for inch
+        /// </summary>
         [Test]
         public void Given_nullInch_ShouldReturnFalse()
         {
@@ -71,7 +91,9 @@ namespace Quantity_Measurement_Test
             var actual = inch.Equals(null);
             Assert.IsFalse(actual);
         }
-
+        /// <summary>
+        /// test case for inch
+        /// </summary>
         [Test]
         public void RefCheck_ForInches_ShouldReturnFalse()
         {
@@ -79,7 +101,9 @@ namespace Quantity_Measurement_Test
             var actual = this.Equals(inches);
             Assert.IsFalse(actual);
         }
-
+        /// <summary>
+         /// test case for inch
+         /// </summary>
         [Test]
         public void TypeCheck_ForInches_ShouldReturnTrue()
         {
@@ -88,7 +112,9 @@ namespace Quantity_Measurement_Test
             var actual = inch1.Equals(inch2);
             Assert.IsTrue(actual);
         }
-
+        /// <summary>
+        /// test case for inch
+        /// </summary>
         [Test]
         public void GivenSimilar_InchValues_WhileCheking_ShouldReturnTrue()
         {
@@ -97,7 +123,9 @@ namespace Quantity_Measurement_Test
             var actual = inch1.ConvertedInchesValue(inch2);
             Assert.IsTrue(actual);
         }
-
+        /// <summary>
+        /// test case for inch
+        /// </summary>
         [Test]
         public void GivenOdd_InchValues_WhileCheking_ShouldReturnFalse()
         {
@@ -106,7 +134,9 @@ namespace Quantity_Measurement_Test
             var actual = inch1.ConvertedInchesValue(inch2);
             Assert.IsFalse(actual);
         }
-
+        /// <summary>
+        /// test case for feet and iches comparision
+        /// </summary>
         [Test]
         public void Given0Feet_And_0Inch_ShouldReturnEqual()
         {
@@ -116,6 +146,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedFeetAndinchesValue(feet,inch);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for feet and iches comparision
+        /// </summary>
         [Test]
         public void Given1Feet_And_1Inch_ShouldReturnEqual()
         {
@@ -125,6 +158,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedFeetAndinchesValue(feet, inch);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for feet and iches comparision
+        /// </summary>
         [Test]
         public void Given1Feet_And_12Inch_ShouldReturnEqual()
         {

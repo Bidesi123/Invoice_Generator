@@ -6,6 +6,9 @@ namespace Quantity_Measurement_Test
 {
     class FeetToYardUnitTest
     {
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void Given0Yard_And0Yard_ShouldReturnEqual()
         {
@@ -14,7 +17,9 @@ namespace Quantity_Measurement_Test
             var actual = yard1.ConvertedYardValue(yard2);
             Assert.IsTrue(actual);
         }
-
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void NullYard_ShouldReturn_False()
         {
@@ -22,7 +27,9 @@ namespace Quantity_Measurement_Test
             var actual = yard1.Equals(null);
             Assert.IsFalse(actual);
         }
-
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void RefCheck_ForYard_ShouldReturnFalse()
         {
@@ -30,7 +37,9 @@ namespace Quantity_Measurement_Test
             var actual = this.Equals(yard1);
             Assert.IsFalse(actual);
         }
-
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void TypeCheck_ForYard_ShouldReturnTrue()
         {
@@ -39,6 +48,9 @@ namespace Quantity_Measurement_Test
             var actual = yard1.Equals(yard2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void GivenSimilar_YardValues_WhileCheking_ShouldReturnTrue()
         {
@@ -47,6 +59,9 @@ namespace Quantity_Measurement_Test
             var actual = yard1.ConvertedYardValue(yard2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for feet
+        /// </summary>
         [Test]
         public void GivenOdd_YardValues_WhileCheking_ShouldReturnFalse()
         {
@@ -55,6 +70,9 @@ namespace Quantity_Measurement_Test
             var actual = yard1.ConvertedYardValue(yard2);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for feet to yard comparision
+        /// </summary>
         [Test]
         public void Given0Yard_And_0Feet_ShouldReturnEqual()
         {
@@ -64,6 +82,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedFeetAndYardValue(feet, yard);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for feet to yard comparision
+        /// </summary>
         [Test]
         public void Given1Feet_And_1Yard_ShouldReturnEqual()
         {
@@ -73,6 +94,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedFeetAndYardValue(feet, yard);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for feet to yard comparision
+        /// </summary>
         [Test]
         public void Given3Feet_And_1Yard_ShouldReturnEqual()
         {
@@ -82,6 +106,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedFeetAndYardValue(feet, yard);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for feet to yard comparision
+        /// </summary>
         [Test]
         public void Given1Yard_And_1Inches_ShouldReturnFalse()
         {
@@ -91,6 +118,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedInchesAndYardValue(inch, yard);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for feet to yard comparision
+        /// </summary>
         [Test]
         public void Given1Yard_And_36Inches_ShouldReturnTrue()
         {

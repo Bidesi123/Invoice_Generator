@@ -5,14 +5,20 @@ namespace Quantity_Measurement_Test
 {
     class CelciusToFahreniteUnitTest
     {
+        /// <summary>
+        /// test case for Celcius
+        /// </summary>
         [Test]
-        public void Given0Feet_And0Feet_ShouldReturnEqual()
+        public void Given0Celcius_And0Celcius_ShouldReturnEqual()
         {
             Celcius celcius1 = new Celcius(0);
             Celcius celcius2 = new Celcius(0);
             var actual = celcius1.ConvertedCelciusValue(celcius2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for Celcius
+        /// </summary>
         [Test]
         public void NullCelcius_ShouldReturn_False()
         {
@@ -20,6 +26,9 @@ namespace Quantity_Measurement_Test
             var actual = celcius1.Equals(null);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for Celcius
+        /// </summary>
         [Test]
         public void RefCheck_ForCelcius_ShouldReturnFalse()
         {
@@ -27,6 +36,9 @@ namespace Quantity_Measurement_Test
             var actual = this.Equals(celcius1);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for Celcius
+        /// </summary>
         [Test]
         public void TypeCheck_ForCelcius_ShouldReturnTrue()
         {
@@ -35,6 +47,9 @@ namespace Quantity_Measurement_Test
             var actual = celcius1.Equals(celcius1);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for Celcius
+        /// </summary>
         [Test]
         public void GivenSimilar_Celcius_WhileCheking_ShouldReturnTrue()
         {
@@ -43,6 +58,9 @@ namespace Quantity_Measurement_Test
             var actual = celcius1.ConvertedCelciusValue(celcius2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for Celcius
+        /// </summary>
         [Test]
         public void GivenOdd_Celcius_WhileCheking_ShouldReturnFalse()
         {
@@ -51,6 +69,9 @@ namespace Quantity_Measurement_Test
             var actual = celcius1.ConvertedCelciusValue(celcius2);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for fahrenite
+        /// </summary>
         [Test]
         public void Given0Fahrenite_And0Fahrenite_ShouldReturnEqual()
         {
@@ -59,6 +80,9 @@ namespace Quantity_Measurement_Test
             var actual = fahrenite1.ConvertedFahreniteValue(fahrenite2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for fahrenite
+        /// </summary>
         [Test]
         public void Given_nullFahrenite_ShouldReturnFalse()
         {
@@ -66,6 +90,9 @@ namespace Quantity_Measurement_Test
             var actual = fahrenite1.Equals(null);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for fahrenite
+        /// </summary>
         [Test]
         public void RefCheck_Fahrenite_ShouldReturnFalse()
         {
@@ -73,6 +100,9 @@ namespace Quantity_Measurement_Test
             var actual = this.Equals(fahrenite1);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for fahrenite
+        /// </summary>
         [Test]
         public void TypeCheck_ForFahrenite_ShouldReturnTrue()
         {
@@ -81,6 +111,9 @@ namespace Quantity_Measurement_Test
             var actual = fahrenite1.Equals(fahrenite2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for fahrenite
+        /// </summary>
         [Test]
         public void GivenSimilar_Fahrenite_WhileCheking_ShouldReturnTrue()
         {
@@ -89,6 +122,9 @@ namespace Quantity_Measurement_Test
             var actual = fahrenite1.ConvertedFahreniteValue(fahrenite2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for fahrenite
+        /// </summary>
         [Test]
         public void GivenOdd_Fahrenite_WhileCheking_ShouldReturnFalse()
         {
@@ -97,6 +133,9 @@ namespace Quantity_Measurement_Test
             var actual = fahrenite1.ConvertedFahreniteValue(fahrenite2);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for Calcius to fahrenite
+        /// </summary>
         [Test]
         public void Given1Celcius_And_1Fahrenite_ShouldReturnEqual()
         {
@@ -106,6 +145,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedCelciusAndFahreniteValue(celcius, fahrenite);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for Calcius to fahrenite
+        /// </summary>
         [Test]
         public void Given1Celcius_And_RespectedConvertedFahrenite_ShouldReturnEqual()
         {

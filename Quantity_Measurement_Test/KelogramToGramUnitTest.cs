@@ -4,6 +4,9 @@ namespace Quantity_Measurement_Test
 {
     public class KelogramToGramUnitTest
     {
+        /// <summary>
+        /// test case for kelogram
+        /// </summary>
         [Test]
         public void Given0Kelogram_And0Kelogram_ShouldReturnEqual()
         {
@@ -12,6 +15,9 @@ namespace Quantity_Measurement_Test
             var actual = kelogram1.ConvertedKelogramValue(kelogram2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for kelogram
+        /// </summary>
         [Test]
         public void NullKelogram_ShouldReturn_False()
         {
@@ -19,6 +25,9 @@ namespace Quantity_Measurement_Test
             var actual = kelogram.Equals(null);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for kelogram
+        /// </summary>
         [Test]
         public void RefCheck_ForKelogram_ShouldReturnFalse()
         {
@@ -26,6 +35,9 @@ namespace Quantity_Measurement_Test
             var actual = this.Equals(kelogram);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for kelogram
+        /// </summary>
         [Test]
         public void TypeCheck_Forkelogram_ShouldReturnTrue()
         {
@@ -34,6 +46,9 @@ namespace Quantity_Measurement_Test
             var actual = kelogram1.Equals(kelogram2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for kelogram
+        /// </summary>
         [Test]
         public void GivenSimilar_Kelogram_WhileCheking_ShouldReturnTrue()
         {
@@ -42,6 +57,9 @@ namespace Quantity_Measurement_Test
             var actual = kelogram1.ConvertedKelogramValue(kelogram2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for kelogram
+        /// </summary>
         [Test]
         public void GivenOdd_Kelogram_WhileCheking_ShouldReturnFalse()
         {
@@ -50,6 +68,9 @@ namespace Quantity_Measurement_Test
             var actual = kelogram1.ConvertedKelogramValue(kelogram2);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for gram
+        /// </summary>
         [Test]
         public void Given0Gram_And0Gram_ShouldReturnEqual()
         {
@@ -58,6 +79,9 @@ namespace Quantity_Measurement_Test
             var actual = gram1.ConvertedGramalue(gram2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for gram
+        /// </summary>
         [Test]
         public void Given_nullGram_ShouldReturnFalse()
         {
@@ -65,6 +89,9 @@ namespace Quantity_Measurement_Test
             var actual = gram1.Equals(null);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for gram
+        /// </summary>
         [Test]
         public void RefCheck_ForGram_ShouldReturnFalse()
         {
@@ -72,6 +99,9 @@ namespace Quantity_Measurement_Test
             var actual = this.Equals(gram1);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for gram
+        /// </summary>
         [Test]
         public void TypeCheck_ForGram_ShouldReturnTrue()
         {
@@ -80,6 +110,9 @@ namespace Quantity_Measurement_Test
             var actual = gram1.Equals(gram2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for gram
+        /// </summary>
         [Test]
         public void GivenSimilar_Gram_WhileCheking_ShouldReturnTrue()
         {
@@ -88,6 +121,9 @@ namespace Quantity_Measurement_Test
             var actual = gram1.ConvertedGramalue(gram2);
             Assert.IsTrue(actual);
         }
+        /// <summary>
+        /// test case for gram
+        /// </summary>
         [Test]
         public void GivenOdd_Gram_WhileCheking_ShouldReturnFalse()
         {
@@ -96,6 +132,9 @@ namespace Quantity_Measurement_Test
             var actual = gram1.ConvertedGramalue(gram2);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for kelogram and gram conversion
+        /// </summary>
         [Test]
         public void Given0Kelogram_And_0Gram_ShouldReturnEqual()
         {
@@ -105,7 +144,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedKelogramAndGramValue(kelogram, gram);
             Assert.IsTrue(actual);
         }
-
+        /// <summary>
+        /// test case for kelogram and gram conversion
+        /// </summary>
         [Test]
         public void Given1Kelogram_And_1Gram_ShouldReturnEqual()
         {
@@ -115,6 +156,9 @@ namespace Quantity_Measurement_Test
             var actual = test.ComparedKelogramAndGramValue(kelogram, gram);
             Assert.IsFalse(actual);
         }
+        /// <summary>
+        /// test case for kelogram and gram conversion
+        /// </summary>
         [Test]
         public void Given1Kelogram_And_1000Gram_ShouldReturnEqual()
         {
