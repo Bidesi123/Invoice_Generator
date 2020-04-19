@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "QuantityManager/1.0.0": {
+        "dependencies": {
+          "QuantityMeasurementModel": "1.0.0",
+          "QuantityRepository": "1.0.0"
+        },
+        "runtime": {
+          "QuantityManager.dll": {}
+        }
+      },
+      "QuantityMeasurementModel/1.0.0": {
+        "runtime": {
+          "QuantityMeasurementModel.dll": {}
+        }
+      },
+      "QuantityRepository/1.0.0": {
+        "dependencies": {
+          "QuantityMeasurementModel": "1.0.0"
+        },
+        "runtime": {
+          "QuantityRepository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuantityManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuantityMeasurementModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuantityRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
