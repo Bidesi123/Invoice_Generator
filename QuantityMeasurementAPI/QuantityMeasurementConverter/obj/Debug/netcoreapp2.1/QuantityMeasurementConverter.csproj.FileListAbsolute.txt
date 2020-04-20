@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\bin\Debug\netcoreapp2.1\QuantityMeasurementConverter.deps.json
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\bin\Debug\netcoreapp2.1\QuantityMeasurementConverter.runtimeconfig.json
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\bin\Debug\netcoreapp2.1\QuantityMeasurementConverter.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\bin\Debug\netcoreapp2.1\QuantityMeasurementConverter.dll
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\bin\Debug\netcoreapp2.1\QuantityMeasurementConverter.pdb
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\bin\Debug\netcoreapp2.1\QuantityMeasurementRepository.dll
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\bin\Debug\netcoreapp2.1\QuantityMeasurementRepository.pdb
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\obj\Debug\netcoreapp2.1\QuantityMeasurementConverter.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\obj\Debug\netcoreapp2.1\QuantityMeasurementConverter.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\obj\Debug\netcoreapp2.1\QuantityMeasurementConverter.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\obj\Debug\netcoreapp2.1\QuantityMeasurementConverter.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\obj\Debug\netcoreapp2.1\QuantityMeasurementConverter.csproj.CopyComplete
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\obj\Debug\netcoreapp2.1\QuantityMeasurementConverter.dll
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\obj\Debug\netcoreapp2.1\QuantityMeasurementConverter.pdb
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementConverter\obj\Debug\netcoreapp2.1\QuantityMeasurementConverter.genruntimeconfig.cache

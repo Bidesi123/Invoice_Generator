@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\bin\Debug\netcoreapp2.1\QuantityMeasurementRepository.deps.json
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\bin\Debug\netcoreapp2.1\QuantityMeasurementRepository.runtimeconfig.json
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\bin\Debug\netcoreapp2.1\QuantityMeasurementRepository.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\bin\Debug\netcoreapp2.1\QuantityMeasurementRepository.dll
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\bin\Debug\netcoreapp2.1\QuantityMeasurementRepository.pdb
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\obj\Debug\netcoreapp2.1\QuantityMeasurementRepository.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\obj\Debug\netcoreapp2.1\QuantityMeasurementRepository.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\obj\Debug\netcoreapp2.1\QuantityMeasurementRepository.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\obj\Debug\netcoreapp2.1\QuantityMeasurementRepository.dll
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\obj\Debug\netcoreapp2.1\QuantityMeasurementRepository.pdb
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\obj\Debug\netcoreapp2.1\QuantityMeasurementRepository.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\QuantityMeasurementAPI\QuantityMeasurementRepository\obj\Debug\netcoreapp2.1\QuantityMeasurementRepository.csprojAssemblyReference.cache
