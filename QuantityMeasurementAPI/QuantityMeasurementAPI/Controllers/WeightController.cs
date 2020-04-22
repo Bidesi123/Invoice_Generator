@@ -9,19 +9,33 @@ using QuantityMeasurementConverter.WeightConverter;
 
 namespace QuantityMeasurementAPI.Controllers
 {
+    /// <summary>
+    /// WeightController class
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class WeightController : ControllerBase
     {
+        /// <summary>
+        /// declasation of IWeightConverter interface
+        /// </summary>
         private IWeightConverter weight;
+        /// <summary>
+        /// public constructor of class to initialize IWeightConverter
+        /// </summary>
+        /// <param name="weight"></param>
         public WeightController(IWeightConverter weight)
         {
             this.weight = weight;
         }
-
+        /// <summary>
+        /// conversion method from kelogram to gram
+        /// </summary>
+        /// <param name="kg"></param>
+        /// <returns>Task<IActionResult></returns>
         [Route("api/KgToGm")]
         [HttpGet]
-        public async Task<IActionResult> GetFeet(double kg)
+        public async Task<IActionResult> Getgram(double kg)
         {
             var result = weight.KgToGm(kg);
             if (result != 0.0)
@@ -29,10 +43,14 @@ namespace QuantityMeasurementAPI.Controllers
 
             return this.BadRequest();
         }
-
+        /// <summary>
+        /// conversion method from gram to kelogram
+        /// </summary>
+        /// <param name="kg"></param>
+        /// <returns>Task<IActionResult></returns>
         [Route("api/GmToKg")]
         [HttpGet]
-        public async Task<IActionResult> GetInch(double gm)
+        public async Task<IActionResult> Getkelogram(double gm)
         {
             var result = weight.GmToKg(gm);
             if (result != 0.0)

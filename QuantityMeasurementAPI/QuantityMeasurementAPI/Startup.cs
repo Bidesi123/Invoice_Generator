@@ -32,14 +32,28 @@ namespace QuantityMeasurementAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            ///add cors to allow all origin,method and head
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder =>
+                    {
+                        builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials();
+                    });
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            ///addition of dependancy
             services.AddTransient<ILengthConverter, ImpLengthConverter>();
             services.AddTransient<ILengthRepository, ImpLengthRepository>();
             services.AddTransient<ITemperatureConverter, ImpTemperatureConverter>();
             services.AddTransient<ITemperatureRepository, ImpTemperatureRepository>();
             services.AddTransient<IWeightConverter, ImpWeightConverter>();
             services.AddTransient<IWeightRepository, ImpWeightRepository>();
-
+            ///addition of swaager gen method
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "QuantityMeasurement", Version = "v1" });
@@ -47,7 +61,6 @@ namespace QuantityMeasurementAPI
 
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -63,7 +76,7 @@ namespace QuantityMeasurementAPI
             {
                 app.UseHsts();
             }
-
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseMvc();
         }
