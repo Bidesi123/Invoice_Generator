@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\bin\Debug\netcoreapp2.1\VehicleRepository.deps.json
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\bin\Debug\netcoreapp2.1\VehicleRepository.runtimeconfig.json
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\bin\Debug\netcoreapp2.1\VehicleRepository.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\bin\Debug\netcoreapp2.1\VehicleRepository.dll
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\bin\Debug\netcoreapp2.1\VehicleRepository.pdb
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\bin\Debug\netcoreapp2.1\VehicleModel.dll
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\bin\Debug\netcoreapp2.1\VehicleModel.pdb
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\obj\Debug\netcoreapp2.1\VehicleRepository.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\obj\Debug\netcoreapp2.1\VehicleRepository.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\obj\Debug\netcoreapp2.1\VehicleRepository.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\obj\Debug\netcoreapp2.1\VehicleRepository.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\obj\Debug\netcoreapp2.1\VehicleRepository.csproj.CopyComplete
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\obj\Debug\netcoreapp2.1\VehicleRepository.dll
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\obj\Debug\netcoreapp2.1\VehicleRepository.pdb
+C:\Users\ASUS\source\repos\ParkingLot\VehicleRepository\obj\Debug\netcoreapp2.1\VehicleRepository.genruntimeconfig.cache
