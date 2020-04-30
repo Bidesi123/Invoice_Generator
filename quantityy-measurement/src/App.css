@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.unit-select{
+  width: 370px;
+  height: 30px;
+  background-color: bisque;
+  margin:20px;
+}
+
+.covert-div {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.output-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+input[type="text"] {
+  height: 40px;
+}
+select.i-o-select {
+  height: 30px;
+  background-color: ivory;
+}
+.l-w-t-select-div{
+  position: relative;
+  left: 335px;
+}
+.submit-btn{
+  position: relative;
+  left: 510px;
+  top: 20px;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+.headline-div{
+  width: 100%;
+  background-color: darkgreen;
+}
+.head1{
+  position: relative;
+  left: 420px;
+}
+.head2{
+  position: relative;
+  left: 300px;
+}
