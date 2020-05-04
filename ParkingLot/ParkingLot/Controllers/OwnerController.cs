@@ -35,9 +35,9 @@ namespace ParkingLot.Controllers
 
         [Route("GetVehicle")]
         [HttpGet]
-        public async Task<IActionResult> GetVehicle(int ParkinfSlotNumber)
+        public async Task<IActionResult> GetVehicle(int DriverID)
         {
-            Vehicle vehicle = this.manager.GetVehicle(ParkinfSlotNumber);
+            Vehicle vehicle = this.manager.GetVehicle(DriverID);
 
             if (vehicle == null)
             {
@@ -49,9 +49,9 @@ namespace ParkingLot.Controllers
 
         [Route("RemoveParking")]
         [HttpDelete]
-        public Vehicle RemoveParking(int ParkinfSlotNumber)
+        public Vehicle RemoveParking(int DriverID)
         {
-            return this.manager.RemoveParking(ParkinfSlotNumber);
+            return this.manager.RemoveParking(DriverID);
         }
     }
 }

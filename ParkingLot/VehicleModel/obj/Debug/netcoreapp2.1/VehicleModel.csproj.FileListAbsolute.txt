@@ -3,6 +3,7 @@ C:\Users\ASUS\source\repos\ParkingLot\VehicleModel\bin\Debug\netcoreapp2.1\Vehic
 C:\Users\ASUS\source\repos\ParkingLot\VehicleModel\bin\Debug\netcoreapp2.1\VehicleModel.runtimeconfig.dev.json
 C:\Users\ASUS\source\repos\ParkingLot\VehicleModel\bin\Debug\netcoreapp2.1\VehicleModel.dll
 C:\Users\ASUS\source\repos\ParkingLot\VehicleModel\bin\Debug\netcoreapp2.1\VehicleModel.pdb
+C:\Users\ASUS\source\repos\ParkingLot\VehicleModel\obj\Debug\netcoreapp2.1\VehicleModel.csprojAssemblyReference.cache
 C:\Users\ASUS\source\repos\ParkingLot\VehicleModel\obj\Debug\netcoreapp2.1\VehicleModel.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\ParkingLot\VehicleModel\obj\Debug\netcoreapp2.1\VehicleModel.AssemblyInfoInputs.cache
 C:\Users\ASUS\source\repos\ParkingLot\VehicleModel\obj\Debug\netcoreapp2.1\VehicleModel.AssemblyInfo.cs

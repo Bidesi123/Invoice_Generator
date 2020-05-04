@@ -24,7 +24,8 @@ namespace ParkingLot.Controllers
         {
             return this.manager.GetLotSpace();
         }
-
+        [Route("GetAllVehicle")]
+        [HttpGet]
         public IEnumerable<Vehicle> GetAllVehicle()
         {
             return this.manager.GetAllVehicle();
@@ -32,24 +33,25 @@ namespace ParkingLot.Controllers
 
         [Route("AddParking")]
         [HttpPost]
-        public async Task<IActionResult> AddParking(Vehicle vehicle)
+        public  string AddParking(Vehicle vehicle)
         {
-            var result = await this.manager.AddParking(vehicle);
-            if (result == 1)
+            /*var result = this.manager.AddParking(vehicle);
+            if (result != "")
             {
                 return this.Ok(vehicle);
             }
             else
             {
                 return this.BadRequest();
-            }
+            }*/
+            return this.manager.AddParking(vehicle);
         }
 
         [Route("GetVehicle")]
         [HttpGet]
-        public async Task<IActionResult> GetVehicle(int ParkinfSlotNumber)
+        public async Task<IActionResult> GetVehicle(int DriverID)
         {
-            Vehicle vehicle = this.manager.GetVehicle(ParkinfSlotNumber);
+            Vehicle vehicle = this.manager.GetVehicle(DriverID);
 
             if (vehicle == null)
             {
@@ -61,17 +63,17 @@ namespace ParkingLot.Controllers
 
         [Route("ParkingCharge")]
         [HttpGet]
-        public double ParkingCharges(int ParkinfSlotNumber)
+        public double ParkingCharges(int DriverID)
         {
-            return this.manager.ParkingCharge(ParkinfSlotNumber);
+            return this.manager.ParkingCharge(DriverID);
         }
 
 
         [Route("RemoveParking")]
         [HttpDelete]
-        public Vehicle RemoveParking(int ParkinfSlotNumber)
+        public Vehicle RemoveParking(int DriverID)
         {
-            return this.manager.RemoveParking(ParkinfSlotNumber);
+            return this.manager.RemoveParking(DriverID);
         }
     }
 }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace VehicleRepository.Migrations
 {
-    public partial class initial : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,19 +12,19 @@ namespace VehicleRepository.Migrations
                 name: "Vehicle",
                 columns: table => new
                 {
-                    ParkinfSlotNumber = table.Column<int>(nullable: false)
+                    DriverID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    ParkingSlotNumber = table.Column<int>(nullable: false),
                     VehicleNumber = table.Column<int>(nullable: false),
                     EnteryTime = table.Column<DateTime>(nullable: false),
-                    ExitTime = table.Column<DateTime>(nullable: false),
-                    chargesPerHr = table.Column<double>(nullable: false),
-                    parkingType = table.Column<string>(nullable: true),
-                    vehicleType = table.Column<string>(nullable: true),
-                    driverType = table.Column<string>(nullable: true)
+                    ChargesPerHr = table.Column<double>(nullable: false),
+                    ParkingType = table.Column<string>(nullable: true),
+                    DriverType = table.Column<string>(nullable: true),
+                    VehicleType = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Vehicle", x => x.ParkinfSlotNumber);
+                    table.PrimaryKey("PK_Vehicle", x => x.DriverID);
                 });
         }
 

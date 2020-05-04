@@ -20,14 +20,14 @@ namespace VehicleManager.Owner
             return this.repo.AddParking(vehicle);
         }
 
-        public Vehicle GetVehicle(int ParkinfSlotNumber)
+        public Vehicle GetVehicle(int DriverID)
         {
-            return this.repo.GetVehicle(ParkinfSlotNumber);
+            return this.repo.GetVehicle(DriverID);
         }
 
-        public Vehicle RemoveParking(int ParkinfSlotNumber)
+        public Vehicle RemoveParking(int DriverID)
         {
-            return this.repo.RemoveParking(ParkinfSlotNumber);
+            return this.repo.RemoveParking(DriverID);
         }
     }
 }

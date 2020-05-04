@@ -15,7 +15,7 @@ namespace VehicleManager.Driver
             this.repo = repo;
         }
 
-        public Task<int> AddParking(Vehicle vehicle)
+        public string AddParking(Vehicle vehicle)
         {
             return this.repo.AddParking(vehicle);
         }
@@ -30,19 +30,19 @@ namespace VehicleManager.Driver
             return this.repo.GetLotSpace();
         }
 
-        public Vehicle GetVehicle(int ParkinfSlotNumber)
+        public Vehicle GetVehicle(int DriverID)
         {
-            return this.repo.GetVehicle(ParkinfSlotNumber);
+            return this.repo.GetVehicle(DriverID);
         }
 
-        public double ParkingCharge(int ParkinfSlotNumber)
+        public double ParkingCharge(int DriverID)
         {
-            return this.repo.ParkingCharge(ParkinfSlotNumber);
+            return this.repo.ParkingCharge(DriverID);
         }
 
-        public Vehicle RemoveParking(int ParkinfSlotNumber)
+        public Vehicle RemoveParking(int DriverID)
         {
-            return this.repo.RemoveParking(ParkinfSlotNumber);
+            return this.repo.RemoveParking(DriverID);
         }
     }
 }

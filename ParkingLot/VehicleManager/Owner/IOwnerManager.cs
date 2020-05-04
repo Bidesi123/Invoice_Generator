@@ -10,7 +10,7 @@ namespace VehicleManager.Owner
    public interface IOwnerManager
     {
         Task<int> AddParking(Vehicle vehicle);
-        Vehicle GetVehicle(int ParkinfSlotNumber);
-        Vehicle RemoveParking(int ParkinfSlotNumber);
+        Vehicle GetVehicle(int DriverID);
+        Vehicle RemoveParking(int DriverID);
     }
 }

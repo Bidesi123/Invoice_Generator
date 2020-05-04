@@ -20,14 +20,14 @@ namespace VehicleRepository.Owner
             return result;
         }
 
-        public Vehicle GetVehicle(int ParkinfSlotNumber)
+        public Vehicle GetVehicle(int DriverID)
         {
-            return vehicleDBContext.Vehicle.Find(ParkinfSlotNumber);
+            return vehicleDBContext.Vehicle.Find(DriverID);
         }
 
-        public Vehicle RemoveParking(int ParkinfSlotNumber)
+        public Vehicle RemoveParking(int DriverID)
         {
-            Vehicle vehicle = vehicleDBContext.Vehicle.Find(ParkinfSlotNumber);
+            Vehicle vehicle = vehicleDBContext.Vehicle.Find(DriverID);
             if (vehicle != null)
             {
                 vehicleDBContext.Vehicle.Remove(vehicle);

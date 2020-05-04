@@ -11,9 +11,9 @@ namespace VehicleRepository.Police
     {
         string GetLotSpace();
         IEnumerable<Vehicle> GetAllVehicle();
-        Task<int> AddParking(Vehicle vehicle);     
-        Vehicle GetVehicle(int ParkinfSlotNumber);
-        Vehicle RemoveParking(int ParkinfSlotNumber);     
-        double ParkingCharge(int ParkinfSlotNumber);
+        string AddParking(Vehicle vehicle);     
+        Vehicle GetVehicle(int DriverID);
+        Vehicle RemoveParking(int DriverID);     
+        double ParkingCharge(int DriverID);
     }
 }

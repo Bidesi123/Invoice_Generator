@@ -21,25 +21,25 @@ namespace VehicleRepository.Migrations
 
             modelBuilder.Entity("VehicleModel.Vehicle", b =>
                 {
-                    b.Property<int>("ParkinfSlotNumber")
+                    b.Property<int>("DriverID")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<double>("ChargesPerHr");
+
+                    b.Property<string>("DriverType");
+
                     b.Property<DateTime>("EnteryTime");
 
-                    b.Property<DateTime>("ExitTime");
+                    b.Property<int>("ParkingSlotNumber");
+
+                    b.Property<string>("ParkingType");
 
                     b.Property<int>("VehicleNumber");
 
-                    b.Property<double>("chargesPerHr");
+                    b.Property<string>("VehicleType");
 
-                    b.Property<string>("driverType");
-
-                    b.Property<string>("parkingType");
-
-                    b.Property<string>("vehicleType");
-
-                    b.HasKey("ParkinfSlotNumber");
+                    b.HasKey("DriverID");
 
                     b.ToTable("Vehicle");
                 });

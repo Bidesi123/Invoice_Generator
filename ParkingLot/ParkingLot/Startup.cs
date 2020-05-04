@@ -15,6 +15,12 @@ using VehicleRepository;
 using VehicleRepository.Driver;
 using VehicleManager.Driver;
 using Swashbuckle.AspNetCore.Swagger;
+using VehicleRepository.Owner;
+using VehicleManager.Owner;
+using VehicleRepository.Police;
+using VehicleManager.Police;
+using VehicleRepository.Security;
+using VehicleManager.Security;
 
 namespace ParkingLot
 {
@@ -34,6 +40,12 @@ namespace ParkingLot
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddTransient<IDriverRepository, ImpDriverRepository>();
             services.AddTransient<IDriverManager, ImpDriverManager>();
+            services.AddTransient<IOwnerRepository, ImpOwnerRepository>();
+            services.AddTransient<IOwnerManager, ImpOwnerManager>();
+            services.AddTransient<IPoliceRepository, ImpPoliceRepository>();
+            services.AddTransient<IPoliceManager, ImpPoliceManager>();
+            services.AddTransient<ISecurityRepository, ImpSecurityRepository>();
+            services.AddTransient<ISecurityManager, ImpSecurityManager>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "ParkingLot", Version = "v1" });
